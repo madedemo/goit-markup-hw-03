@@ -58,6 +58,7 @@ img {
 }
 
 .logo {
+  color: #4d5ae5;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -66,7 +67,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: #4d5ae5;
   display: flex;
   height: 24px;
   align-items: center;
