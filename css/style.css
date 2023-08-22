@@ -286,6 +286,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
   margin-bottom: 72px;
 }
 
@@ -317,11 +318,6 @@ img {
 .footer {
   background: var(--navyblue, #2e2f42);
   padding: 100px 0;
-}
-
-.footer-list {
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .footer-text {
