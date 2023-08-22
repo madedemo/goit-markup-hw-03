@@ -327,6 +327,9 @@ img {
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.32px;
+  display: inline-block;
+  margin-bottom: 16px;
+  max-width: 264px;
 }
 
 .footer-logo-studio {
