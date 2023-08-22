@@ -24,16 +24,18 @@ ul {
   list-style: none;
 }
 
+img {
+  display: block;
+}
+
 .address-link {
   text-decoration: none;
 }
 
 .container {
   max-width: 1158px;
-  padding-left: auto;
-  padding-right: auto;
-  margin-left: 16px;
-  margin-right: 16px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Header Logotype*/
@@ -50,6 +52,11 @@ ul {
   align-items: center;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
@@ -60,7 +67,7 @@ ul {
   text-transform: uppercase;
   text-decoration: none;
   color: #4d5ae5;
-  display: inline-flex;
+  display: flex;
   height: 24px;
   align-items: center;
   flex-shrink: 0;
@@ -69,7 +76,7 @@ ul {
   padding-bottom: 25.5px;
 }
 
-.logo .logo-studio {
+.header-logo-studio {
   color: var(--navyblue, #2e2f42);
 }
 
@@ -100,7 +107,8 @@ ul {
 }
 
 .header-address-list {
-  display: flex;
+  display: inline-flex;
+  align-items: flex-start;
   gap: 40px;
 }
 
@@ -226,11 +234,20 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.footer-page {
+/*Footer*/
+.footer {
   background: var(--navyblue, #2e2f42);
 }
 
-/*footer*/
+.footer-container {
+  padding: 100px 0;
+}
+
+.footer-list {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
 .footer-text {
   color: var(--cloud, #f4f4fd);
   font-family: Roboto;
@@ -240,7 +257,7 @@ ul {
   letter-spacing: 0.32px;
 }
 
-.logo-studio-footer {
+.footer-logo-studio {
   color: var(--cloud, #f4f4fd);
   font-family: Raleway;
   font-size: 18px;
