@@ -38,7 +38,7 @@ img {
   padding: 0 15px;
 }
 
-/* Header Logotype*/
+/* Header */
 .header {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
@@ -107,7 +107,7 @@ img {
 }
 
 .header-address-list {
-  display: inline-flex;
+  display: flex;
   align-items: flex-start;
   gap: 40px;
 }
@@ -127,7 +127,7 @@ img {
   color: #404bbf;
 }
 
-/*first section*/
+/* hero (first) section*/
 .hero {
   background: var(--navyblue, #2e2f42);
 }
