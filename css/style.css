@@ -38,7 +38,20 @@ img {
   padding: 0 15px;
 }
 
-/* Header */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* Header ==============================================================*/
 .header {
   border-bottom: 1px solid var(--cornflower, #e7e9fc);
   background: var(--white, #fff);
@@ -127,7 +140,7 @@ img {
   color: #404bbf;
 }
 
-/* hero (first) section*/
+/* HERO (first) section============================================*/
 .hero {
   background: var(--navyblue, #2e2f42);
   padding: 188px 0;
@@ -171,35 +184,22 @@ img {
   background-color: #404bbf;
 }
 
-/*second section*/
+/*FEATURES second section===========================*/
 
-.approach {
+.features {
   padding: 120px 0;
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.approach-list {
+.features-list {
   display: flex;
   gap: 24px;
 }
 
-.approach-item {
+.features-item {
   width: calc((100% – 72px) / 4);
 }
 
-.approach-title {
+.features-title {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
@@ -208,12 +208,12 @@ img {
   margin-bottom: 8px;
 }
 
-.approach-text {
+.features-text {
   color: var(--slate, #434455);
   letter-spacing: 0.32px;
 }
 
-/*third section*/
+/* TEAM third section*/
 .team {
   background: var(--cloud, #f4f4fd);
   padding: 120px 0;
@@ -247,7 +247,7 @@ img {
   text-align: center;
 }
 
-.team-member {
+.team-member-subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-style: normal;
@@ -266,7 +266,7 @@ img {
   letter-spacing: 0.32px;
 }
 
-/*forth section*/
+/* PORTFOLIO forth section====================================================*/
 
 .projects {
   padding: 120px 0;
@@ -301,12 +301,13 @@ img {
   margin-bottom: 8px;
 }
 
-.projects-name {
+.projects-subtitle {
   color: var(--navyblue, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .projects-text {
@@ -314,7 +315,7 @@ img {
   letter-spacing: 0.32px;
 }
 
-/*Footer*/
+/*Footer=================================*/
 .footer {
   background: var(--navyblue, #2e2f42);
   padding: 100px 0;
@@ -322,7 +323,6 @@ img {
 
 .footer-text {
   color: var(--cloud, #f4f4fd);
-  font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
